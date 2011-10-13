@@ -1,3 +1,4 @@
+=begin
 class SpreeDigitalHooks < Spree::ThemeSupport::HookListener
   Deface::Override.new(:virtual_path => "admin/shared/_product_tabs",
                      :name => "converted_admin_product_tabs_986577829",
@@ -8,3 +9,4 @@ class SpreeDigitalHooks < Spree::ThemeSupport::HookListener
 ",
                      :disabled => false)
 end
+=end
